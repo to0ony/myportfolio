@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Antonijo Marić | Portfolio</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>ANTONIJO MARIĆ</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About me</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/menu.png"
+        alt="jane-doe"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">Hey, happy to see you here!</h2>
+        <p class="bio-text">
+          I'm Antonijo Maric and I'm passionate photographer.
+          I'm doing sports photography and photo sessions with clients. Beside photography,
+          I'm studying math and computer science on Mathos. Currently learning C++. 
+          Feel free to contact me!
+        </p>
+      </div>
+    </section>
+
+    <section class="more-about">
+      <h2>You wanna know more about me? Alright then.</h2>
+      <p>
+        Coming from Bosnia and Herzegovina from a little village Gornji Zovik.
+        Attended gymnasium in Brčko where I gained basic knowledge about C language, 
+        SQL and Visual Basic.
+        Right now I live in Osijek where I study math and computer science on Mathos hoping I will gain
+        fundamental skills in programming which will help me after graduating. Right now I like 
+        Web design and development the most.
+      </p>
+      <p>
+        Photographing for a long time now and it is something that I really enjoy doing. Even tough I have quite of
+        experience in field of photography - I'm still learning a lot. All my work can be seen on <a target="_blank" href="https://www.flickr.com/photos/155004005@N07/">Flickr</a> 
+        or <a target="_blank" href="https://www.instagram.com/tonyphotography.1/">Instagram</a> profile.
+      </p>
+      <p>
+        For the end another hobby I really enjoy a lot - cycling. Sometimes programming and editing photos can take
+        so much time so I need to find some way to be active regarding health. Just like all cyclists, I'm proud user
+        of <a target="_blank" href="https://www.strava.com/athletes/45910070">Strava</a> so I can bore everyone with my recorded trips :)
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/cplus.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my work</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/medPhoto.jpg"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Lokomotiva Cup</h3>
+          <p class="project-details">
+            I had opportunity to shoot one of the biggest
+            handball international tournaments in region - Lokomotiva Cup.
+          </p>
+          <a href="https://www.flickr.com/photos/155004005@N07/albums/72157705751199744" target="_blank" class="project-link">Check it Out on Flickr</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/med1Photo.jpg"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Jedinstvo Brcko</h3>
+          <p class="project-details">
+            Shooting for volleyball club Jedinstvo Brcko.
+            Match between Jedinstvo and Sarajevo
+            in 19. fixture of Premier League BH.
+          </p>
+          <a href="https://www.flickr.com/photos/155004005@N07/albums/72177720300201765/with/52184080090/" target="_blank" class="project-link">Check it Out on Flickr</a><br>
+          <a href="https://www.instagram.com/p/Ca0G1U3Ihqc/" target="_blank" class="project-link">Check it Out on Instagram</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/med2Photo.jpg"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">High school website project</h3>
+          <p class="project-details">
+            Creating static website using HTML and CSS.
+            Website was maded for purpose of high school project.
+
+          </p>
+          <a href="https://github.com/to0ony/aurelia.github.io" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/mvonreky" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="https://twitter.com/antonijomaric03" target="_blank"
+        ><img
+          src="assets/icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.instagram.com/tonyphotography.1/" target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/to0ony/" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/to0ony" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2023</p>
+      <p class="copy">
+        Built by Antonijo Maric</a
+        >
+      </p>
+    </footer>
+
+    <i class="scroll-up" id="scroll-up"
+    ><img
+      src="assets/icons/icons8-upward-arrow.gif"
+      class="socicon up-arrow"
+      alt="scroll-up"
+    /></i>
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
